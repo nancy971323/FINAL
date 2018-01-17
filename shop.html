@@ -1,0 +1,143 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>shop</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+      <link href="css/style.css" rel="stylesheet" type="text/css" href="">
+      <!-- js -->
+      <script src="js/jquery.min.js"></script> 
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info nav-shadow">
+        <a class="navbar-brand" href="#">CLOTHES</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">WOMEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">MAN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">CHILD</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-end mr-3">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">SIGN UP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">LOG IN</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0 mb-0">
+            <input class="form-control mr-sm-2" placeholder="Search" aria-label="Search" type="text">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div class="container marketing">
+        <div class="single">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 single-left">
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li data-thumb="ex1.jpg">
+                      <div class="thumb-image"> <img src="ex1.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                    </li>
+                    <li data-thumb="ex2.jpg">
+                       <div class="thumb-image"> <img src="ex2.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                    </li>
+                    <li data-thumb="ex3.jpg">
+                       <div class="thumb-image"> <img src="ex3.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                    </li> 
+                  </ul>
+                </div>
+                <!-- flexslider -->
+                  <script defer src="js/jquery.flexslider.js"></script>
+                  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+                  <script>
+                  // Can also be used with $(document).ready()
+                  $(window).load(function() {
+                    $('.flexslider').flexslider({
+                    animation: "slide",
+                    controlNav: "thumbnails"
+                    });
+                  });
+                  </script>
+                <!-- flexslider -->
+                <!-- zooming-effect -->
+                  <script src="js/imagezoom.js"></script>
+                <!-- //zooming-effect -->
+              </div>
+              <div class="col-md-8">
+                <h3 class="font-weight-bold">MEN'S T-SHIRT</h3>
+
+                <div class="description">
+                  <h5>Description</h5>
+                  <p> We've added anti-microbial and anti-odor properties to keep you fresh even in sweaty situations.
+                      Updated for a new season! Increased stretch for ease of movement.
+                      Available in a range of subtle mottled colors, perfect for casual outfits.
+                      Updated for a new season! New knit provides a more natural collar.
+                      We've added a colorful band inside the collar for a subtle yet stylish accent.</p>
+                </div>
+
+                <hr class="featurette-divider">
+
+                  <h5>SIZE :</h5>
+                    <div class="check">
+                      <label class="mr-3"><input type="checkbox" name="checkbox" checked=""> S</label>
+                      <label class="mr-3"><input type="checkbox" name="checkbox"> M</label>
+                      <label class="mr-3"><input type="checkbox" name="checkbox"> L</label>
+                    </div>
+
+                <hr class="featurette-divider">
+
+                <div class="price">
+                  <p>$100</p> 
+                </div> 
+
+                <hr class="featurette-divider">
+
+                <button type="button" class="btn btn-info">BUY</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2018 NANCO. ‧ <a href="#">Privacy</a> ‧ <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  
